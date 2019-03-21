@@ -4,11 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <style>
+        div.example {
+            background-color: lightgrey;
+            padding: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+        div.example {
+            font-size: 10vw;
+            }
+            p {
+            font-size: 1vw;
+            }
+        }
+        
+        @media screen and (min-width: 601px) {
+        div.example {
+            font-size: 100px;
+            }
+            p {
+            font-size: 100%;
+            }
+        }
+        
+    </style>
 </head>
-<body style="background-color:powderblue;">
-    <h1>Hello world!</h1>    
-</body>
-</html>
+<body>
+<h1>Responsive Text</h1>
+
+<h3>On small screens the following texts' font size is reduced to avoide scroll bars on mobile devices</h3>
+
+<div class="example">Example DIV.</div>
+
+<p>When the browser's width is 600px wide or less, set the font-size of DIV to 30px. 
+    When it is 601px or wider, set the font-size to 80px.
+    When the browser's width is 600px wide or less, set the font-size of DIV to 30px. 
+    When it is 601px or wider, set the font-size to 80px.
+    When the browser's width is 600px wide or less, set the font-size of DIV to 30px. 
+    When it is 601px or wider, set the font-size to 80px.
+    When the browser's width is 600px wide or less, set the font-size of DIV to 30px. 
+    When it is 601px or wider, set the font-size to 80px.
+    When the browser's width is 600px wide or less, set the font-size of DIV to 30px. 
+    When it is 601px or wider, set the font-size to 80px.
+    When the browser's width is 600px wide or less, set the font-size of DIV to 30px. 
+    When it is 601px or wider, set the font-size to 80px.
+    When the browser's width is 600px wide or less, set the font-size of DIV to 30px. 
+    When it is 601px or wider, set the font-size to 80px.
+    
+</p>
+
 </body>
 </html>
